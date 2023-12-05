@@ -1,6 +1,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    background-image: url(snakebild)
+    /*background-image: url(snakebild)*/
+    background-color: #009C9B;
 }
 
