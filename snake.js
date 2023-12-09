@@ -21,6 +21,10 @@ var foodY;
 
 var gameOver = false;
 
+function restartGame() { // Gör så at man kan restarta
+    location.reload();
+  }
+
 //canvasen i sidan, gör så att man faktiskt kan se boarden 
 window.onload = function () {
     board = document.getElementById("board");
