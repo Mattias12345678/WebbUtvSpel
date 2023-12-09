@@ -1,7 +1,21 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    /*background-image: url(snakebild)*/
     background-color: #009C9B;
 }
 
+#top-left-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 30px;
+    width: 80px;
+}
+
+#restart-button {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    height: 30px;
+    width: 120px;
+}
