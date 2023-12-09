@@ -15,6 +15,10 @@ window.onload = function() {
 
 }
 
+function restartGame() { // Gör så at man kan restarta
+    location.reload();
+  }
+
 function setMines() { //minornas kordinater
     minesLocation.push("2-2");
     minesLocation.push("1-4");
@@ -22,20 +26,23 @@ function setMines() { //minornas kordinater
     minesLocation.push("7-3");
     minesLocation.push("6-2");
 
+}
+
     
     //den här delen av koden funkar inte för min dator är bajs men det skulle basically göra så att bomberna hade en random kordinat i brädan 
-    /*let minesLeft = minesCount;
+/*let minesLeft = minesCount;
     while (minesLeft > 0) {
         let r = Math.floor(Math.random() * rows);
         let c = Math.floor(Math.random() * columns);
         let id = r.toString() + "-" + c.toString();
+        minesLeft -= 1;
 
         if (minesLocation.includes(id)) {
             minesLocation.push(id);
-            minesLeft -= 1;
+            
         }
     }*/
-}
+
 
 function startGame() {
     document.getElementById("mines-count").innerText = minesCount;
