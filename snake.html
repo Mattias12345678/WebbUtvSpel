@@ -9,20 +9,16 @@
     <link rel="stylesheet" href="snake.css">
     <script src="snake.js"></script>
     
-<!--
-    <style>
-        /*försökte lägga en bakgrundsbild här men det gick inte*/
-        body {
-            background-image: url('googlesnake.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-    </style>
--->
 </head>
 
     <body>
+
+        <a href="index.html">
+            <button id="top-left-button">Tillbaka</button>      
+          </a>
+
+            <button id="restart-button" onclick="restartGame()">Restart Game</button>
+
         <h1>Snake</h1>
         <canvas id="board"></canvas>    <!--själva "brädan" eller där ormen kommer att kunna förflytta sig på-->
     </body>
